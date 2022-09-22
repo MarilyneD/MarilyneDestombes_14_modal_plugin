@@ -1,12 +1,16 @@
 {
   "name": "marilyne-simplemodal-react",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "simple modal with text arguments and onchange function",
   "main": "./dist/index.js",
   "style": "/dist/index.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rm -rf dist && NODE_ENV=production babel src --out-dir dist --copy-files"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MarilyneD/MarilyneDestombes_14_modal_plugin.git"
   },
   "author": "Marilyne Destombes",
   "license": "ISC",
