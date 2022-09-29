@@ -1,4 +1,4 @@
-# A simple Modal React component Plugin - Marilyne Destombes
+# A simple Modal React component Plugin
 
 ## Description
 
@@ -50,3 +50,7 @@ There are three properties :
 ```
 
 You can custom style by editing the default css.
+
+## Author of this plugin :
+
+Marilyne DESTOMBES, student at OpenClassRooms
