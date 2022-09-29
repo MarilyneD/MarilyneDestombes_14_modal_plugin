@@ -1,16 +1,4 @@
-A simple modal react component plugin from Marilyne.
-
-You can custom style by editing the default css.
-
-There are three properties :
-
--modalVisible : boolean,true or false
-
--mainTexT :string
-
--childrenText : string if you want to add comments
-
-# Modal Plugin - Marilyne Destombes
+# A simple Modal React component Plugin - Marilyne Destombes
 
 ## Description
 
@@ -29,6 +17,14 @@ npm i marilyne-simplemodal-react
 ```javascript
 import ModalPlugIn from "marilyne-simplemodal-react";
 ```
+
+There are three properties :
+
+-modalVisible : boolean,true or false
+
+-mainTexT :string
+
+-childrenText : string if you want to add comments
 
 2. Example of a jsx code to call the external component :
 
@@ -52,3 +48,5 @@ import ModalPlugIn from "marilyne-simplemodal-react";
     width: 60%; /* Could be more or less, depending on screen size */
   }
 ```
+
+You can custom style by editing the default css.
