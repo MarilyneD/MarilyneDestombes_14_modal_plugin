@@ -1,6 +1,6 @@
 {
   "name": "marilyne-simplemodal-react",
-  "version": "1.0.9",
+  "version": "1.0.11",
   "description": "simple modal with text arguments and onchange function",
   "main": "./dist/index.js",
   "style": "/dist/index.css",

@@ -70,20 +70,20 @@ var ModalPlugIn = function ModalPlugIn(_ref) {
   (0, _react.useEffect)(function () {
     setIsActive(modalVisible);
   }, [modalVisible]);
-  var handelKeydown = (0, _react.useCallback)(function (e) {
+  var handleKeydown = (0, _react.useCallback)(function (e) {
     if (e.key === "Escape") return setIsActive(false);
   }, [setIsActive]);
   (0, _react.useEffect)(function () {
     if (isActive) {
-      document.addEventListener("keydown", handelKeydown);
+      document.addEventListener("keydown", handleKeydown);
     } else {
-      document.removeEventListener("keydown", handelKeydown);
+      document.removeEventListener("keydown", handleKeydown);
     }
 
     return function () {
-      document.removeEventListener("keydown", handelKeydown);
+      document.removeEventListener("keydown", handleKeydown);
     };
-  }, [isActive, handelKeydown, ref]);
+  }, [isActive, handleKeydown, ref]);
   return /*#__PURE__*/_react["default"].createElement("div", {
     className: "modal",
     style: {
