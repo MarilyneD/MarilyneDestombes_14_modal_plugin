@@ -1,6 +1,6 @@
 {
   "name": "marilyne-simplemodal-react",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "simple modal with text arguments and onchange function",
   "main": "./dist/index.js",
   "style": "/dist/index.css",
@@ -14,6 +14,7 @@
   },
   "author": "Marilyne Destombes",
   "license": "ISC",
+  "keywords": ["modal","react","react-component","javascript","dialog"],
   "devDependencies": {
     "@babel/cli": "^7.18.10",
     "@babel/core": "^7.19.1",
